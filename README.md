@@ -26,7 +26,7 @@ To change the location, update the LATITUDE and LONGITUDE variables at the top o
 
 ## Database Schema
 This pipeline creates a "weather_data" table with the following structure:
-
+```
 sql
 CREATE TABLE weather_data (
     latitude FLOAT,
@@ -37,6 +37,7 @@ CREATE TABLE weather_data (
     weathercode INT,
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+```
 
 ## Prerequisites
 Airflow Providers
